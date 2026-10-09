@@ -36,7 +36,6 @@ def calculate_total():
 
 
 def display_cart():
-    print("\n--- Shopping Cart ---")
 
     if not cart:
         print("Your cart is empty.")
@@ -50,7 +49,6 @@ def display_cart():
 
 
 while True:
-    print("\nAvailable Products:")
 
     for name, details in products.items():
         print(name, "- Rs.", details["price"],
